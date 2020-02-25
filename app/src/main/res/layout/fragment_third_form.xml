@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                                       android:layout_width="match_parent"
+                                       android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  style="@style/WidthMatchHeightWrapVertical"
+                  android:padding="16dp">
+
+        <TextView
+                style="@style/second_form_title_text_style"
+                android:layout_marginTop="0dp"
+                android:text="Weight"/>
+
+        <LinearLayout style="@style/WidthMatchHeightWrapVertical">
+
+            <TextView
+                    style="@style/register_title_style"
+                    android:text="Machine"/>
+
+            <com.maxx.eparchi.utils.view.NoDefaultARSpinner2
+                    android:id="@+id/weightMachineSpinner"
+                    style="@style/DefaultSpinnerStyle"/>
+        </LinearLayout>
+
+        <EditText
+                style="@style/BorderEditTextStyle"
+                android:id="@+id/wireTypeEditText"
+                android:inputType="number"
+                android:hint="Wire Type"/>
+
+        <LinearLayout style="@style/WidthMatchHeightWrapVertical">
+
+            <TextView
+                    style="@style/register_title_style"
+                    android:text="Bundled Type"/>
+
+            <com.maxx.eparchi.utils.view.NoDefaultARSpinner2
+                    android:id="@+id/bundledTypeSpinner"
+                    style="@style/DefaultSpinnerStyle"/>
+        </LinearLayout>
+
+        <LinearLayout style="@style/WidthMatchHeightWrapVertical">
+
+            <TextView
+                    style="@style/register_title_style"
+                    android:text="Number of bundle"/>
+
+            <com.maxx.eparchi.utils.view.NoDefaultARSpinner2
+                    android:id="@+id/bundleNumberSpinner"
+                    style="@style/DefaultSpinnerStyle"/>
+
+        </LinearLayout>
+
+        <EditText
+                style="@style/BorderEditTextStyle"
+                android:id="@+id/weightEditText"
+                android:inputType="numberDecimal"
+                android:hint="Weight of total bundles"/>
+
+        <Button
+                style="@style/button_style"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:text="@string/submit"/>
+
+        <LinearLayout style="@style/WidthMatchHeightWrapHorizontal"
+                      android:layout_marginTop="20dp"
+                      android:layout_marginBottom="20dp"
+                      android:gravity="center">
+
+            <Button
+                    android:id="@+id/btnPowerOn"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_marginEnd="5dp"
+                    style="@style/button_style"
+                    android:text="@string/power_on"/>
+
+            <Button
+                    android:id="@+id/btnShiftEnd"
+                    style="@style/button_style"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="@string/shift_end"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

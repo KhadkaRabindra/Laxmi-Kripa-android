@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Laxmi Kripa</string>
+    <string name="image_directory_name">Developer With Android Studio</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="ok">OK</string>
+    <string name="no_internet_connection_message">Please check your internet connection.</string>
+    <string name="update_current_version">New version available Please update.</string>
+    <string name="new_version_is_available">Update Available</string>
+    <string name="update">Update</string>
+
+    <!--Fonts-->
+    <string name="gotham">fonts/gotham-rounded-book.otf</string>
+    <string name="gothamBold">fonts/gotham-rounded-medium.otf</string>
+    <string name="gothamExtraBold">fonts/gotham-rounded-bold.otf</string>
+    <string name="gothamItalic">fonts/gotham-rounded-book-italic.otf</string>
+    <string name="gothamBoldItalic">fonts/gotham-rounded-bold-italic.otf</string>
+    <string name="submit">Submit</string>
+    <string name="power_cut">Power Cut</string>
+    <string name="shift_end">Shift End</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="login">Login</string>
+    <string name="power_on">Power On</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>

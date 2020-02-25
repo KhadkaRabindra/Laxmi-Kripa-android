@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/colorRed"/>
+    <corners
+            android:bottomLeftRadius="@dimen/button_corner"
+            android:bottomRightRadius="@dimen/button_corner"
+            android:topLeftRadius="@dimen/button_corner"
+            android:topRightRadius="@dimen/button_corner"/>
+    <!--<gradient
+        android:centerColor="@color/background_home_center_color"
+        android:endColor="@color/background_home_end_color"
+        android:startColor="@color/background_home_start_color"
+        android:type="linear" />-->
+</shape>

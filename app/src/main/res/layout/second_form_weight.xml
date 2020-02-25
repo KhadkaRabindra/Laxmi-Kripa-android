@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            style="@style/second_form_title_text_style"
+            android:layout_marginTop="0dp"
+            android:text="Weight"/>
+
+    <LinearLayout style="@style/WidthMatchHeightWrapVertical">
+
+        <TextView
+                style="@style/register_title_style"
+                android:text="Machine"/>
+
+        <com.maxx.eparchi.utils.view.NoDefaultARSpinner2
+                android:id="@+id/weightMachineSpinner"
+                style="@style/DefaultSpinnerStyle"/>
+    </LinearLayout>
+
+    <EditText
+            android:id="@+id/wireTypeEditText"
+            style="@style/BorderEditTextStyle"
+            android:inputType="number"
+            android:hint="Wire Type"/>
+
+    <LinearLayout style="@style/WidthMatchHeightWrapVertical">
+
+        <TextView
+                style="@style/register_title_style"
+                android:text="Bundled Type"/>
+
+        <com.maxx.eparchi.utils.view.NoDefaultARSpinner2
+                android:id="@+id/bundledTypeSpinner"
+                style="@style/DefaultSpinnerStyle"/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/WidthMatchHeightWrapVertical">
+
+        <TextView
+                style="@style/register_title_style"
+                android:text="Bundled Number"/>
+
+        <com.maxx.eparchi.utils.view.NoDefaultARSpinner2
+                android:id="@+id/bundleNumberSpinner"
+                style="@style/DefaultSpinnerStyle"/>
+
+    </LinearLayout>
+
+    <EditText
+            style="@style/BorderEditTextStyle"
+            android:id="@+id/weightEditText"
+            android:inputType="text"
+            android:hint="Wire Type"/>
+
+    <Button
+            android:id="@+id/btnNext"
+            style="@style/button_style"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/submit"/>
+
+</LinearLayout>

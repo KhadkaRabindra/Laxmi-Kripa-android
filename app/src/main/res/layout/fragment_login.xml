@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/WidthMatchHeightMatchVertical"
+              android:background="@color/colorWhite">
+
+    <ScrollView style="@style/WidthMatchHeightMatch"
+                android:fillViewport="true">
+        <LinearLayout style="@style/WidthMatchHeightMatchVertical">
+
+            <LinearLayout
+                    android:padding="30dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    style="@style/WidthMatchHeightWrapVertical">
+
+
+                <LinearLayout
+                        android:layout_marginTop="50dp"
+                        style="@style/WidthMatchHeightWrapVertical">
+
+                    <TextView
+                            android:id="@+id/userNameLabel"
+                            style="@style/LoginFieldTitleStyle"
+                            android:text="User Name"/>
+
+                    <!--User name-->
+
+                    <LinearLayout style="@style/DefaultInputFieldWrapperStyle">
+
+                        <EditText
+                                android:id="@+id/userNameEditText"
+                                style="@style/BorderEditTextStyle"
+                                android:imeOptions="actionNext"/>
+                    </LinearLayout>
+
+                    <!--Password-->
+                    <TextView
+                            android:id="@+id/passwordLabel"
+                            style="@style/LoginFieldTitleStyle"
+                            android:layout_marginTop="20dp"
+                            android:text="@string/password"/>
+
+
+                    <LinearLayout style="@style/DefaultInputFieldWrapperStyle">
+
+                        <EditText
+                                android:id="@+id/passwordEditText"
+                                style="@style/BorderEditTextStyle"
+                                android:imeOptions="actionDone"
+                                android:inputType="textPassword"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!--Forgot password-->
+                <TextView android:id="@+id/forgotPasswordTextView"
+                          style="@style/WidthWrapHeightWrap"
+                          android:textColor="#827F7F"
+                          android:layout_marginTop="5dp"
+                          android:padding="5dp"
+                          android:layout_gravity="right"
+                          android:text="@string/forgot_password"
+                          android:textSize="14sp"/>
+
+
+                <!--Buttons-->
+                <Button
+                        android:id="@+id/loginButton"
+                        style="@style/button_style"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:text="@string/submit"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

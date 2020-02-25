@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:background="@color/color_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+    <LinearLayout
+            android:background="@color/color_bg"
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                style="@style/stand_by_bhatti_layout_style">
+
+            <TextView
+                    style="@style/stand_by_bhatti_textview"
+                    android:text="Temp Sensor"/>
+
+            <RadioGroup
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/radioGroup">
+
+                <RadioButton
+                        style="@style/stand_by_bhatti_radio_button_style"
+                        android:text="Ok"
+                        android:id="@+id/okRadioButton"
+                        android:checked="true"/>
+
+                <RadioButton
+                        style="@style/stand_by_bhatti_radio_button_style"
+                        android:text="Not OK"
+                        android:id="@+id/notOkRadioButton"
+                        android:checked="false"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_marginTop="16dp"
+                style="@style/stand_by_bhatti_layout_style">
+
+            <TextView
+                    style="@style/stand_by_bhatti_textview"
+                    android:text="RTD Pressure Switch"/>
+
+            <RadioGroup
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <RadioButton
+                        android:id="@+id/rtdOkRadioButton"
+                        style="@style/stand_by_bhatti_radio_button_style"
+                        android:text="Ok"
+                        android:checked="true"/>
+
+                <RadioButton
+                        android:id="@+id/rtdNotOkRadioButton"
+                        style="@style/stand_by_bhatti_radio_button_style"
+                        android:text="Not OK"
+                        android:checked="false"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_marginTop="16dp"
+                style="@style/stand_by_bhatti_layout_style">
+
+            <TextView
+                    style="@style/stand_by_bhatti_textview"
+                    android:text="Octopus busber"/>
+
+            <RadioGroup
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <RadioButton
+                        android:id="@+id/octopusBusberOkRadioButton"
+                        style="@style/stand_by_bhatti_radio_button_style"
+                        android:text="Ok"
+                        android:checked="true"/>
+
+                <RadioButton
+                        android:id="@+id/octopusBusberNotOkRadioButton"
+                        style="@style/stand_by_bhatti_radio_button_style"
+                        android:text="Not OK"
+                        android:checked="false"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_marginTop="16dp"
+                style="@style/stand_by_bhatti_layout_style">
+
+            <TextView
+                    style="@style/stand_by_bhatti_textview"
+                    android:text="Top Dummy Form"/>
+
+            <RadioGroup
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <RadioButton
+                        android:id="@+id/topDummyFormOkRadioButton"
+                        style="@style/stand_by_bhatti_radio_button_style"
+                        android:text="Ok"
+                        android:checked="true"/>
+
+                <RadioButton
+                        android:id="@+id/topDummyFormNotOkRadioButton"
+                        style="@style/stand_by_bhatti_radio_button_style"
+                        android:text="Not OK"
+                        android:checked="false"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_marginTop="16dp"
+                style="@style/stand_by_bhatti_layout_style">
+
+            <TextView
+                    style="@style/stand_by_bhatti_textview"
+                    android:text="Bottom Dummy Form"/>
+
+            <RadioGroup
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <RadioButton
+                        android:id="@+id/bottomDummyFormOkRadioButton"
+                        style="@style/stand_by_bhatti_radio_button_style"
+                        android:text="Ok"
+                        android:checked="true"/>
+
+                <RadioButton
+                        android:id="@+id/bottomDummyFormNotOkRadioButton"
+                        style="@style/stand_by_bhatti_radio_button_style"
+                        android:text="Not OK"
+                        android:checked="false"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_marginTop="16dp"
+                style="@style/stand_by_bhatti_layout_style">
+
+            <TextView
+                    style="@style/stand_by_bhatti_textview"
+                    android:text="FRP Wood"/>
+
+            <RadioGroup
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <RadioButton
+                        android:id="@+id/frpWoodOkRadioButton"
+                        style="@style/stand_by_bhatti_radio_button_style"
+                        android:text="Ok"
+                        android:checked="true"/>
+
+                <RadioButton
+                        android:id="@+id/frpWoodNotOkRadioButton"
+                        style="@style/stand_by_bhatti_radio_button_style"
+                        android:text="Not OK"
+                        android:checked="false"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_marginTop="16dp"
+                style="@style/stand_by_bhatti_layout_style">
+
+            <TextView
+                    style="@style/stand_by_bhatti_textview"
+                    android:text="Short Link"/>
+
+            <RadioGroup
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <RadioButton
+                        android:id="@+id/shortLinkOkRadioButton"
+                        style="@style/stand_by_bhatti_radio_button_style"
+                        android:text="Ok"
+                        android:checked="true"/>
+
+                <RadioButton
+                        android:id="@+id/shortLinkNotOkRadioButton"
+                        style="@style/stand_by_bhatti_radio_button_style"
+                        android:text="Not OK"
+                        android:checked="false"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <Button
+                android:id="@+id/nextBtn"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/btn_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textColor="@color/colorWhite"
+                android:text="Next"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

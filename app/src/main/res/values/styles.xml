@@ -1,0 +1,302 @@
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base"/>
+
+    <style name="AppThemeHome" parent="AppThemeHome.Base"/>
+
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!--passcode view style-->
+    <style name="PasscodeViewTheme" parent="Theme.AppCompat.Light.NoActionBar.FullScreen">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppThemeHome.Base" parent="Theme.AppCompat.Light.NoActionBar.FullScreen">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorWhite</item>
+    </style>
+
+    <!--theme for branch locator activity-->
+
+    <style name="CropAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar.FullScreen">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="alertDialogTheme">@style/Theme.AppCompat.Light.Dialog.Alert</item>
+        <item name="android:alertDialogTheme">@style/Theme.AppCompat.Light.Dialog.Alert</item>
+    </style>
+
+    <style name="WidthMatchHeightWrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="WidthMatchHeightMatch">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="WidthWrapHeightWrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="WidthMatchHeightWrapVertical" parent="WidthMatchHeightWrap">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+
+    <style name="WidthMatchHeightMatchVertical" parent="WidthMatchHeightMatch">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="WidthMatchHeightWrapHorizontal" parent="WidthMatchHeightWrap">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="WidthMatchHeightMatchHorizontal" parent="WidthMatchHeightMatch">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="LinearLayoutVertical" parent="WidthMatchHeightWrap">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="LinearLayoutHorizontal" parent="WidthMatchHeightWrap">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="MyToolBarStyle" parent="Base.ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">@color/colorWhite</item>
+        <item name="actionMenuTextColor">@color/colorWhite</item>
+        <item name="android:textColorSecondary">@color/colorWhite</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">@dimen/toolbar_title_text_size</item>
+    </style>
+
+    <!--select amount card view style-->
+    <style name="amount_select_card_bg_style">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="load_money_amount_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="amount_select_card_myr_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/gray_text_color</item>
+        <item name="android:textSize">9sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="stand_by_bhatti_layout_style">
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="stand_by_bhatti_textview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="stand_by_bhatti_radio_button_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="DefaultSpinnerStyle" parent="WidthMatchHeightWrap">
+        <item name="android:background">@drawable/spinner_bg</item>
+        <item name="android:minHeight">@dimen/min_spinner_height</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:spinnerMode">dropdown</item>
+        <!--<item name="android:paddingBottom">@dimen/sub_view_margin</item>-->
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingStart">2dp</item>
+        <!--<item name="android:paddingTop">@dimen/sub_view_margin</item>-->
+    </style>
+
+
+    <style name="cardview_style_first_form_adapter">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:layout_height">@dimen/focusable_edit_text_height</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="title_text_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="title_text_style_first_form_adapter">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <dimen name="title_text_size">22sp</dimen>
+
+    <style name="second_form_title_text_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="second_form_input_field_style">
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/register_title_color</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textSize">@dimen/register_title_size</item>
+        <item name="android:background">@drawable/split_bill_rounded_edittext</item>
+    </style>
+
+    <style name="button_style">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/button</item>
+    </style>
+
+    <style name="register_title_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:textColor">@color/material_grey_500</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:textSize">@dimen/register_title_size</item>
+    </style>
+
+    <style name="LoginFieldTitleStyle" parent="WidthWrapHeightWrap">
+        <item name="android:textColor">#112338</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="BorderedTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="boxStrokeColor">@color/grey_600</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="errorTextAppearance">@style/error_appearance</item>
+    </style>
+
+    <style name="error_appearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/colorRed</item>
+        <item name="android:textSize">13.8sp</item>
+    </style>
+
+    <style name="DefaultInputFieldWrapperStyle" parent="WidthMatchHeightWrap">
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_height">@dimen/input_field_height</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="DefaultEditTextStyle" parent="WidthMatchHeightWrap">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textCursorDrawable">@drawable/cursor</item>
+    </style>
+
+    <style name="BorderEditTextStyle" parent="DefaultEditTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:background">@color/edittext_bg_color</item>
+        <item name="android:layout_height">@dimen/input_field_height</item>
+    </style>
+
+    <style name="DefaultButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/default_button_height</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="backgroundTint">@color/colorPrimary</item>
+        <item name="cornerRadius">@dimen/login_button_corner_radius</item>
+        <item name="rippleColor">@color/colorPrimaryDark</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

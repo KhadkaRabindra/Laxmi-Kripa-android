@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/WidthMatchHeightMatchVertical"
+              android:background="@color/colorWhite">
+
+    <ScrollView style="@style/WidthMatchHeightMatch"
+                android:fillViewport="true">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="vertical"
+                      android:layout_width="match_parent"
+                      android:padding="30dp"
+                      android:layout_height="match_parent">
+
+            <TextView
+                    style="@style/register_title_style"
+                    android:text="If you are submitting form on someone's behalf ,select his name."
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/black_toolbar_title_color"/>
+
+            <LinearLayout style="@style/WidthMatchHeightWrapVertical">
+
+                <TextView
+                        style="@style/register_title_style"
+                        android:text="Login As"/>
+
+                <com.maxx.eparchi.utils.view.NoDefaultARSpinner2
+                        android:id="@+id/userNameSpinner"
+                        style="@style/DefaultSpinnerStyle"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:visibility="gone"
+                    android:layout_marginTop="20dp"
+                    style="@style/WidthMatchHeightWrapVertical">
+
+                <TextView
+                        style="@style/register_title_style"
+                        android:text="Shift"/>
+
+                <com.maxx.eparchi.utils.view.NoDefaultARSpinner2
+                        android:id="@+id/postTypeSpinner"
+                        style="@style/DefaultSpinnerStyle"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_marginTop="20dp"
+                    style="@style/WidthMatchHeightWrapVertical">
+
+                <TextView
+                        style="@style/register_title_style"
+                        android:text="Shift"/>
+
+                <RadioGroup
+                        android:id="@+id/radioShift"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    <RadioButton
+                            android:id="@+id/radioMale"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Day Shift"
+                            android:checked="true"/>
+
+                    <RadioButton
+                            android:id="@+id/radioFemale"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Night Shift"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <Button
+                    android:id="@+id/btnNext"
+                    style="@style/button_style"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/submit"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

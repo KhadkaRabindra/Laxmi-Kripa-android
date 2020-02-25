@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_marginTop="16dp"
+            style="@style/second_form_title_text_style"
+            android:text="Start time before 7:30"/>
+
+    <EditText
+            style="@style/BorderEditTextStyle"
+            android:id="@+id/operatorEditText"
+            android:inputType="text"
+            android:hint="Operator"/>
+
+    <EditText
+            style="@style/BorderEditTextStyle"
+            android:id="@+id/helperEditText"
+            android:inputType="text"
+            android:hint="Helper"/>
+
+    <EditText
+            style="@style/BorderEditTextStyle"
+            android:id="@+id/controllerEditText"
+            android:inputType="text"
+            android:hint="Controller"/>
+
+    <EditText
+            style="@style/BorderEditTextStyle"
+            android:id="@+id/wireTypeEditText"
+            android:inputType="text"
+            android:hint="Wire Type"/>
+
+    <com.maxx.eparchi.utils.view.NoDefaultARSpinner2
+            android:id="@+id/startTimeReasonSpinner"
+            style="@style/DefaultSpinnerStyle"/>
+
+    <Button
+            android:id="@+id/btnNext"
+            style="@style/button_style"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/submit"/>
+
+</LinearLayout>

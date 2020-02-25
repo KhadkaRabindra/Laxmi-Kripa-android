@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/llMain"
+              android:padding="10dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginEnd="10dp"
+              android:layout_marginStart="10dp"
+              android:layout_marginBottom="5dp"
+              android:background="@color/colorWhite"
+              android:orientation="horizontal">
+
+    <LinearLayout
+            android:gravity="center"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:gravity="center"
+                android:background="@drawable/circualr_text_view"
+                android:id="@+id/idTextView"
+                android:layout_width="wrap_content"
+                style="@style/title_text_style"
+                android:textColor="@color/colorWhite"
+                android:text="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_weight="6"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+
+        <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <TextView
+                    style="@style/title_text_style_first_form_adapter"
+                    android:text="Start Time"/>
+
+            <androidx.cardview.widget.CardView
+                    style="@style/cardview_style_first_form_adapter"
+                    app:cardBackgroundColor="@color/nav_selected_item_bg_color"
+                    app:cardElevation="0dp">
+
+                <EditText
+                        android:id="@+id/startTimeEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:maxLength="6"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15sp"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <TextView
+                    style="@style/title_text_style_first_form_adapter"
+                    android:text="Operator"/>
+
+            <androidx.cardview.widget.CardView
+                    style="@style/cardview_style_first_form_adapter"
+                    app:cardBackgroundColor="@color/nav_selected_item_bg_color"
+                    app:cardElevation="0dp">
+
+                <EditText
+                        android:id="@+id/operatorEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPersonName"
+                        android:maxLength="6"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15sp"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <TextView
+                    style="@style/title_text_style_first_form_adapter"
+                    android:text="Helper"/>
+
+            <androidx.cardview.widget.CardView
+                    style="@style/cardview_style_first_form_adapter"
+                    app:cardBackgroundColor="@color/nav_selected_item_bg_color"
+                    app:cardElevation="0dp">
+
+                <EditText
+                        android:id="@+id/helperEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPersonName"
+                        android:maxLength="6"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15sp"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <TextView
+                    style="@style/title_text_style_first_form_adapter"
+                    android:text="Company / Contractor"/>
+
+            <androidx.cardview.widget.CardView
+                    style="@style/cardview_style_first_form_adapter"
+                    app:cardBackgroundColor="@color/nav_selected_item_bg_color"
+                    app:cardElevation="0dp">
+
+                <EditText
+                        android:id="@+id/companyEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:inputType="textPersonName"
+                        android:maxLength="6"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15sp"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <TextView
+                    style="@style/title_text_style_first_form_adapter"
+                    android:text="Wire Type"/>
+
+            <androidx.cardview.widget.CardView
+                    style="@style/cardview_style_first_form_adapter"
+                    app:cardBackgroundColor="@color/nav_selected_item_bg_color"
+                    app:cardElevation="0dp">
+
+                <EditText
+                        android:id="@+id/wireTypeEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:maxLength="6"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15sp"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <TextView
+                    style="@style/title_text_style_first_form_adapter"
+                    android:text="Machine Not Working"/>
+
+            <androidx.cardview.widget.CardView
+                    style="@style/cardview_style_first_form_adapter"
+                    app:cardBackgroundColor="@color/nav_selected_item_bg_color"
+                    app:cardElevation="0dp">
+
+                <EditText
+                        android:id="@+id/machineNotWorkingEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:maxLength="6"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="15sp"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

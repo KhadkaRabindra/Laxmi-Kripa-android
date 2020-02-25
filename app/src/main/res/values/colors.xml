@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196f3</color>
+    <color name="colorPrimaryDark">#0a6ebc</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="colorGreen">#037f51</color>
+    <color name="colorRed">#dc143c</color>
+
+    <color name="colorGray">#E6E6EE</color>
+    <color name="txt_color">#38393f</color>
+    <color name="transperent">#00000000</color>
+    <color name="bg">#f5f5f5</color>
+
+    <color name="nav_selected_item_bg_color">#f5f5f5</color>
+    <color name="toolbar_title_text_color">#1f2d3d</color>
+
+    <color name="colorBlack">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="secondaryTextColor">#ff727272</color>
+    <color name="dark_gray">#9baab2</color>
+    <color name="gray_text_color">#808080</color>
+    <color name="color_bg">#fafafa</color>
+
+    <color name="color_blue">#418bca</color>
+    <color name="color_blue_light">#8ecbfa</color>
+    <color name="black_toolbar_title_color">#273444</color>
+
+    <color name="register_title_color">#3a3a3a</color>
+    <color name="lightBlack">#212121</color>
+    <color name="background_home_start_color">#981b1f</color>
+    <color name="background_home_center_color">#ad1b25</color>
+    <color name="background_home_end_color">#c41c2d</color>
+
+    <color name="grey_600">#757575</color>
+    <color name="edittext_bg_color">#e9eae5</color>
+    <color name="button_bg_color">#2196f3</color>
+
+</resources>
